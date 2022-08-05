@@ -1,7 +1,18 @@
 .weather-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
+    width: 200px;
+}
 
-    width: 120px;
+.weather-data__element {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media (min-width: 500px){
+
+    .weather-data {
+        margin-left: auto;
+    } 
 }

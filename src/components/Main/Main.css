@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 15px;
-    background-color: rgba(246, 246, 246, 0.33);
+    box-sizing: border-box;
     min-height: 100vh;
+    padding-right: 7%;
+    padding-left: 7%;
+    border-radius: 15px;
+
+    background-color: rgba(246, 246, 246, 0.33);
+    
 }

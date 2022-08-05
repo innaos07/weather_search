@@ -13,9 +13,9 @@ const WeatherDate =()=> {
     
     return (
         <div className='weather-data'>
-            <p>{ day }</p>
-            <p>{ month }</p>
-            <p>{ year }</p>
+            <p className='weather-data__element'>{ day }</p>
+            <p className='weather-data__element'>{ month }</p>
+            <p className='weather-data__element'>{ year }</p>
         </div>
     )
 }

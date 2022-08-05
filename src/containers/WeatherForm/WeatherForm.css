@@ -2,8 +2,6 @@
     box-sizing: border-box;
     width: 100%;
     padding-top: 35px;
-    padding-left: 5%;
-    padding-right: 5%; 
     margin-bottom: 30px;
 }
 
@@ -62,8 +60,6 @@
 @media (min-width: 620px){
     
     .weather-form__wrapper{
-        width: 600px;
-        padding-right: 30px ;
-        padding-left:  30px;   
+        width: 600px;   
     }
 }

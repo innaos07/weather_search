@@ -4,8 +4,6 @@ import WeatherImage from '../WeatherImage/WeatherImage';
 
 const WeatherInfo =({data})=> {
 
-   
-
     const name = data.name;
     const status = data.weather.main;
     const temp = Math.round(data.main.temp);

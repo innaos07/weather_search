@@ -6,7 +6,6 @@ const statusWeather =(state = {
     switch (action.type) {
 
         case 'LOADING_DATA':
-        console.log('LOADING_DATA', state, action)
             return {  
                         loading: true, 
                         error: null,
@@ -20,7 +19,7 @@ const statusWeather =(state = {
         case 'FAILURE_DATA':
             return  {   
                         loading: false,
-                        error: true,
+                        error: action.err,
 
                     } 
                         
