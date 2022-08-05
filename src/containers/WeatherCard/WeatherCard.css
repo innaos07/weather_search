@@ -1,0 +1,24 @@
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 7%;
+    padding-left: 7%;   
+}
+
+@media (min-width: 720px){
+
+    .weather-card {
+        width: 600px;
+        padding-right: 30px;
+        padding-left: 30px;
+    } 
+
+}

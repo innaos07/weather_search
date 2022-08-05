@@ -1,0 +1,69 @@
+.weather-form__wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%; 
+    margin-bottom: 30px;
+}
+
+.weather-form {
+    border-radius: 10px;
+    position: relative;
+}
+
+.weather-form__text {
+    box-sizing: border-box;
+
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 40px;    
+    padding-left: 15px;
+    border: none;
+    border-bottom: 3px solid #c0c4e3f7;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font: inherit;
+
+    outline: none;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;     
+}
+
+.weather-form__text:hover ,
+.weather-form__text:focus  {
+    border-color: #a2a4b3;
+    transition: all 0.5s;
+    box-shadow: 0 0 0px 1000px #ffffff inset,
+         0 2px 10px  -5px rgba(0, 0, 0, 0.3);
+}
+
+.weather-form__btn-search {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ffffff;
+    background-image: url('../../img/search.svg');
+    transition: all 0.5s;
+}
+
+.weather-form__text:hover + .weather-form__btn-search ,
+.weather-form__text:focus + .weather-form__btn-search {
+     background-image: url('../../img/search-hover.svg');
+}
+
+.weather-form__btn-search:active{
+    opacity: 0.3;
+}
+
+@media (min-width: 620px){
+    
+    .weather-form__wrapper{
+        width: 600px;
+        padding-right: 30px ;
+        padding-left:  30px;   
+    }
+}

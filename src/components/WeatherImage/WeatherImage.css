@@ -1,0 +1,43 @@
+.weather-card__image {
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.3;
+    margin-bottom: 100px; 
+    transform: translateY(-40px);
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.weather-card__image--cloudy {
+    background-image: url('../../img/cloudy.svg');
+}
+
+.weather-card__image--few-cloudy {
+    background-image: url('../../img/few-clouds.svg');
+}
+
+.weather-card__image--sunny {
+    background-image: url('../../img/sunny.svg');
+}
+
+.weather-card__image--shower-rain {
+    background-image: url('../../img/rain.svg');
+}
+
+.weather-card__image--rain-sunny {
+    background-image: url('../../img/rain-sunny.svg');
+}
+
+.weather-card__image--thunderstorm {
+    background-image: url('../../img/thunderstorm.svg');
+}
+
+.weather-card__image--snow {
+    background-image: url('../../img/snow.svg');
+}
+
+.weather-card__image--mist {
+    background-image: url('../../img/mist.svg');
+}
