@@ -12,7 +12,7 @@ export const failureWeather =(err)=> ({
     err
 })
 
-export function fetchPosts(city) {
+export function fetchPosts(city = 'Barcelona') {
 
     return function(dispatch) {
        
